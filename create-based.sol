@@ -14,6 +14,7 @@ contract Intermediary {
     address owner;
     Bank bank;
     uint amount;
+    
 
     constructor(Bank _bank, address _owner, uint _amount) public {
     // for solidity 0.4.21
@@ -71,6 +72,7 @@ contract Mallory is IntermediaryCallback {
     uint state;
     Intermediary i1;
     Intermediary i2;
+    Intermediary i3 = 0;
 
     function attack(Bank b, uint amount) public payable {
         state = 0;
