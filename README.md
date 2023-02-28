@@ -1,5 +1,5 @@
 # Vulnerable BlockChain Application
-# Re-Entrancy Attack Patterns 
+# Re-Entrancy Attack Patterns
 
 These attack patterns were discovered during evaluation of `Sereum` a runtime
 monitoring solution for re-entrancy attacks, which utilizes taint tracking and
